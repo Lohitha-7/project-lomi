@@ -66,7 +66,7 @@ app.add_middleware(
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
-FRONTEND_FILE = BASE_DIR / "index.html"
+FRONTEND_FILE = BASE_DIR / "frontend" / "index.html"
 
 if not FRONTEND_FILE.exists():
     print(
